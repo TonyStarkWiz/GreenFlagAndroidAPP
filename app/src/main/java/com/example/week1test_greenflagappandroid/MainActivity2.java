@@ -69,13 +69,15 @@ public class MainActivity2 extends AppCompatActivity {
                 ed.apply();
             }
         });
+
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onBackPressed();
                 }
             });
-            emailEdit.addTextChangedListener(new TextWatcher() {
+
+        emailEdit.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 }
