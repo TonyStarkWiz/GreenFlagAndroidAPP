@@ -1,4 +1,5 @@
 package com.example.week1test_greenflagappandroid;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,9 +12,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
 {
-    private TextView textView;
     private Button button;
-    private Object MainActivity2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
